@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/my-app/static/css/main.cb4a9979.css",
+    "main.js": "/my-app/static/js/main.0714c5fe.js",
+    "static/css/64.bba8fa55.chunk.css": "/my-app/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.56dc6704.chunk.js": "/my-app/static/js/64.56dc6704.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/my-app/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.bda0d7b7.chunk.js": "/my-app/static/js/769.bda0d7b7.chunk.js",
+    "static/media/certiport.png": "/my-app/static/media/certiport.cf07c6cc61b3e951819e.png",
+    "static/media/Montserrat-Regular.ttf": "/my-app/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/caip.png": "/my-app/static/media/caip.07546cf3c0f737c4b9fb.png",
+    "static/media/Agustina.woff": "/my-app/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/Ioan-Santos-Resume.pdf": "/my-app/static/media/Ioan-Santos-Resume.b728fb9f1c8802037dac.pdf",
+    "static/media/layoffs.webp": "/my-app/static/media/layoffs.31b62f55027289e542f5.webp",
+    "static/media/engforit.png": "/my-app/static/media/engforit.dfea789794c5a29cc307.png",
+    "static/media/manOnTable.svg": "/my-app/static/media/manOnTable.8f117eb207e57ed8f89d67d595aceb45.svg",
+    "static/media/lpuLogo.png": "/my-app/static/media/lpuLogo.194e16bf588da9474f2e.png",
+    "static/media/covid.jpg": "/my-app/static/media/covid.9469f636c1cf6fa449a4.jpg",
+    "static/media/contactMailDark.svg": "/my-app/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/my-app/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/Bitcoin.svg.webp": "/my-app/static/media/Bitcoin.svg.432d451a6fda8c5a8544.webp",
+    "static/media/nba.jpg": "/my-app/static/media/nba.b9ab2f5457fb5522f248.jpg",
+    "static/media/skill.svg": "/my-app/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/my-app/index.html",
+    "static/media/talksCardBack.svg": "/my-app/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.cb4a9979.css.map": "/my-app/static/css/main.cb4a9979.css.map",
+    "main.0714c5fe.js.map": "/my-app/static/js/main.0714c5fe.js.map",
+    "64.bba8fa55.chunk.css.map": "/my-app/static/css/64.bba8fa55.chunk.css.map",
+    "64.56dc6704.chunk.js.map": "/my-app/static/js/64.56dc6704.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/my-app/static/css/769.b3cbb36b.chunk.css.map",
+    "769.bda0d7b7.chunk.js.map": "/my-app/static/js/769.bda0d7b7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb4a9979.css",
+    "static/js/main.0714c5fe.js"
+  ]
+}
