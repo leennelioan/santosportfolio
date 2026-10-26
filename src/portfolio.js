@@ -1,7 +1,3 @@
-/* Change this file to get your personal Portfolio */
-
-// To change portfolio colors globally go to the  _globalColor.scss file
-
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
@@ -20,28 +16,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Leennel Ioan",
+  title: "Hi, I'm Ioan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "An aspiring Data Analyst with experience in data cleaning and exploratory data analysis, passionate about transforming raw data into meaningful insights. Eager to apply analytical skills, develop data-driven solutions, and continuously learn new tools and techniques to support informed decision-making."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1pBblVeDIIojn14jfyrOl2EGmqLBWq7Sf/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
+  github: "https://github.com/leennelioan",
+  linkedin: "https://www.linkedin.com/in/ioansantos/",
+  gmail: "saint.leennel@gmail.com",
   display: true // Set true to display this section, defaults to false
 };
 
@@ -49,72 +39,37 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "ASPIRING DATA ANALYST PASSIONATE ABOUT TURNING DATA INTO ACTIONABLE INSIGHTS",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "📊 Clean and preprocess raw data to ensure accuracy, consistency, and reliability"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("🔍 Perform Exploratory Data Analysis (EDA) to identify trends, patterns, and relationships"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "📈 Create data visualizations and dashboards to communicate insights effectively"
     )
   ],
 
-  /* Make Sure to include correct Font Awesome Classname to view your icon
-https://fontawesome.com/icons?d=gallery */
-
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "SQL",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "Excel",
+      fontAwesomeClassname: "fas fa-file-excel"
+    },
+    {
+      skillName: "Tableau",
+      fontAwesomeClassname: "fas fa-chart-bar"
+    },
+    {
+      skillName: "PowerBI",
+      fontAwesomeClassname: "fas fa-chart-pie"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -124,25 +79,21 @@ https://fontawesome.com/icons?d=gallery */
 
 const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
-  schools: [
+ schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Lyceum of the Philippines University - Cavite",
+      logo: require("./assets/images/lpuLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      duration: "September 2022 - August 2026",
+      desc:  "Developed a strong foundation in programming, data analysis, and database management.",
+      descBullets: [
+        "EAST WEST IESI - Certified Artificial Intelligence Professional (CAIP)",
+        "Certiport IT Specialist - Databases Passer",
+        "Cisco - English for IT 1 Completer",
+        "Achieved a TOEIC score of 880 (CEFR Level B2).",
+        "Dean's Lister for the Academic Year 2025-2026",
+        "Served as President for 3 academic years and Secretary for 1 academic year."
+      ]
     }
   ]
 };
@@ -153,17 +104,17 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Python & SQL", //Insert stack or technology you have experience in
+      progressPercentage: "70%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "Programming",
+      Stack: "Excel",
       progressPercentage: "60%"
-    }
+    },
+        {
+      Stack: "Tableau & PowerBI",
+      progressPercentage: "60%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -174,29 +125,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Quality Assurance Intern",
+      company: "NOAH Business Applications",
+      companylogo: require("./assets/images/nba.jpg"),
+      date: "July 2025 – August 2025",
+      desc: "Supported software quality assurance by preparing and executing test cases, validating financial consolidation modules, documenting software defects, and performing re-testing to verify system functionality and compliance with requirements.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Executed Business Requirements Testing (BRTS) across 2 financial consolidation systems, validating module functionality and identifying issues in financial reporting and consolidation workflows.",
+        "Prepared and updated BRTS test documentation for 4 modules to support systematic software testing.",
+        "Identified and documented software defects across multiple modules, supporting issue tracking and resolution.",
+        "Performed re-testing and verification of previously tested modules, reviewing test results and updating test documentation to help ensure functionality met the specified requirements."
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -206,36 +145,65 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME INDIVIDUAL PROJECTS I MADE TO SHOW MY LEARNING AND SKILLS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/covid.jpg"),
+      projectName: "Covid-19 Data Exploration",
+      projectDesc: "An analysis of COVID-19 data to understand trends and patterns.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "GitHub Link",
+          url: "https://github.com/leennelioan/DataAnalysisProjects/blob/main/SQL%20Projects/CovidProject.sql"
+        },
+        {
+          name: "Tableau Dashboard",
+          url: "https://public.tableau.com/app/profile/leennel.ioan.santos/viz/CovidProject_17927423197820/Dashboard1"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/layoffs.webp"),
+      projectName: "Global Layoffs Data Cleaning",
+      projectDesc: "Cleaning and standardizing global layoffs data using MySQL.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "GitHub Link",
+          url: "http://https://github.com/leennelioan/DataAnalysisProjects/blob/main/SQL%20Projects/Data%20Cleaning%20Project.sql.com/"
         }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/Bitcoin.svg.webp"),
+      projectName: "Cryptocurrency API Automation",
+      projectDesc: "Automating cryptocurrency data collection using Python and APIs.",
+      footerLink: [
+        {
+          name: "GitHub Link",
+          url: "https://github.com/leennelioan/DataAnalysisProjects/blob/main/Python%20Projects/Automating%20Website%20using%20API/Automating%20Crypto%20Website%20API.ipynb"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/Amazon_icon.png"),
+      projectName: "Amazon Web Scraping",
+      projectDesc: "Extracting and tracking product prices using Python web scraping.",
+      footerLink: [
+        {
+          name: "GitHub Link",
+          url: "https://github.com/leennelioan/DataAnalysisProjects/blob/main/Python%20Projects/Web%20Scraping/Amazon%20Web%20Scraper%20Project.ipynb"
+        }
+        //  you can add extra buttons here.
       ]
     }
   ],
@@ -248,55 +216,43 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications, Awards that I have earned during my Academic Years",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Certified Artificial Intelligence Professional",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Demonstrated knowledge of Python programming and fundamental Artificial Intelligence concepts.",
+      image: require("./assets/images/caip.png"),
+      imageAlt: "caip",
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          url: "https://east-west-iesi.trainercentralsite.com/credential-validation?credentialId=5P3HXA63L3FTV"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Certiport IT Specialist Databases",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Demonstrated proficiency in database concepts, SQL, and database management using MySQL.",
+      image: require("./assets/images/certiport.png"),
+      imageAlt: "certiport",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://www.credly.com/badges/540d137f-fcce-4638-a5ed-08d3ef919f06/public_url"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Cisco English for IT 1",
+      subtitle: "Completed a course that teaches the English language in a specific IT context at the B2 Proficiency Level.",
+      image: require("./assets/images/engforit.png"),
+      imageAlt: "Cisco English for IT 1",
       footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
+        {name: "Badge", url: "https://www.credly.com/badges/c78dfe39-b744-4c00-bab4-6e753d2a4c6e/public_url"}
       ]
     }
   ],
@@ -324,7 +280,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +299,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +312,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -371,19 +327,19 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "Open to Data Analyst opportunities and collaborations. Feel free to reach out!",
+  number: "0921 997 7438",
+  email_address: "saint.leennel@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
